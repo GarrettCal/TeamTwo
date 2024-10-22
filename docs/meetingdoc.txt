@@ -1,0 +1,3 @@
+Meeting 1 10/22/2024
+Setup repo and project board. Started on SRS doc and user stories. Established roles including scrum master
+and report manager.
