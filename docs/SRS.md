@@ -26,7 +26,7 @@ Allow users to create, edit, delete, and manage tasks.
 Average customer. All customers will use the app the same.
 
 2.4 Operating Environment
-Describe the environment in which the software will operate, including the hardware platform, operating system and versions, and any other software components or applications with which it must peacefully coexist.
+CLI required.
 
 2.5 Design and Implementation Constraints
 Describe any items or issues that will limit the options available to the developers. These might include: corporate or regulatory policies; hardware limitations (timing requirements, memory requirements); interfaces to other applications; specific technologies, tools, and databases to be used; parallel operations; language requirements; communications protocols; security considerations; design conventions or programming standards (for example, if the customer’s organization will be responsible for maintaining the delivered software).
