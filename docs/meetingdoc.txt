@@ -1,3 +1,7 @@
 Meeting 1 10/22/2024
 Setup repo and project board. Started on SRS doc and user stories. Established roles including scrum master
 and report manager.
+Meeting 2 10/22/2024 - Sprint 1.2
+Decided who will do use cases and who will do SRS document.
+Meeting 3 10/22/2024 - Sprint 2
+Assigned diagrams to each team member, reviewed which each diagram is. Discussed what will come after diagrams aree complete (deciding design patterns).
