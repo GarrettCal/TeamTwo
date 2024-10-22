@@ -20,7 +20,6 @@ The software being specified is the Task Manager App. The purpose of the app is 
 1.5 References
 Use case document, other diagrams.
 
-
 ## Overall Description
 2.1 Product Perspective:
 Completely new stand alone application
