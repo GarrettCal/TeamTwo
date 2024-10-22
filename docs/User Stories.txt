@@ -15,3 +15,9 @@ As a user, I'd like to be able to color code the tasks so that they stick out.
 As a user, I'd like to be able to add subtasks to each task to allow myself to break down large tasks.
 #8:
 As a user, I'd like to be able to share my task list with other people.
+#9:
+As a user, I'd like to be able to create tasks that have a title, description, and due date, so I can keep track of what needs done.
+#10:
+As a user, I'd like to be able to edit tasks, so when plans change I don't have to create an entirely new task to replace it.
+#11:
+As a user, I'd like to be able to delete tasks, so I don't have to see tasks that aren't relevant anymore.
