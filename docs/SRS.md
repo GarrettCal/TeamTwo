@@ -16,26 +16,26 @@ Provide a short description of the software being specified and its purpose, inc
 List any other documents or Web addresses to which this SRS refers. These may include user interface style guides, contracts, standards, system requirements specifications, use case documents, or a vision and scope document. Provide enough information so that the reader could access a copy of each reference, including title, author, version number, date, and source or location.
 
 ## Overall Description
-2.1 Product Perspective
+2.1 Product Perspective:
 Completely new stand alone application
 
-2.2 Product Functions
+2.2 Product Functions:
 Allow users to create, edit, delete, and manage tasks.
 
-2.3 User Classes and Characteristics
+2.3 User Classes and Characteristics:
 Average customer. All customers will use the app the same.
 
-2.4 Operating Environment
+2.4 Operating Environment:
 CLI required.
 
-2.5 Design and Implementation Constraints
-Describe any items or issues that will limit the options available to the developers. These might include: corporate or regulatory policies; hardware limitations (timing requirements, memory requirements); interfaces to other applications; specific technologies, tools, and databases to be used; parallel operations; language requirements; communications protocols; security considerations; design conventions or programming standards (for example, if the customer’s organization will be responsible for maintaining the delivered software).
+2.5 Design and Implementation Constraints:
+N/A. Simple application.
 
-2.6 User Documentation
-List the user documentation components (such as user manuals, on-line help, and tutorials) that will be delivered along with the software. Identify any known user documentation delivery formats or standards.
+2.6 User Documentation:
+Simple tutorial in the CLI.
 
-2.7 Assumptions and Dependencies
-List any assumed factors (as opposed to known facts) that could affect the requirements stated in the SRS. These could include third-party or commercial components that you plan to use, issues around the development or operating environment, or constraints. The project could be affected if these assumptions are incorrect, are not shared, or change. Also identify any dependencies the project has on external factors, such as software components that you intend to reuse from another project, unless they are already documented elsewhere (for example, in the vision and scope document or the project plan).
+2.7 Assumptions and Dependencies:
+N/A
 
 ## External Interface Requirements
 3.1 User Interfaces
