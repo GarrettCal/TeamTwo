@@ -1,0 +1,13 @@
+User stories:
+#1:  
+As a user, I would like to create tasks =, edit them and delete them
+#2:
+As a user, I'd like to be able to login to an account with my tasks, so I can access them between devices.
+#3:
+As a user, I'd like to be able to mark a task as complete so it doesn't get mixed in with what I have in progress.
+#4:
+As a user, I'd like to be able to filter tasks, so I can see just the tasks I'm currently working on, or review tasks I've already completed.
+#5:
+As a user, I'd like to be able to upload task lists from external sources.
+#6:
+As a user, I'd like to be able to color code the tasks so that they stick out.
