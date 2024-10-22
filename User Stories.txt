@@ -1,3 +1,5 @@
 User stories:
 #1:  
 As a user, I would like to create tasks =, edit them and delete them
+#2:
+As a user, I'd like to be able to login to an account with my tasks, so I can access them between devices.
