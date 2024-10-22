@@ -11,3 +11,5 @@ As a user, I'd like to be able to filter tasks, so I can see just the tasks I'm 
 As a user, I'd like to be able to upload task lists from external sources.
 #6:
 As a user, I'd like to be able to color code the tasks so that they stick out.
+#7:
+As a user, I'd like to be able to add subtasks to each task to allow myself to break down large tasks.
