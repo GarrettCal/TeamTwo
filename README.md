@@ -1,4 +1,4 @@
-# TeamTwo v0.2
+# TeamTwo v0.3.1
 Project Overview: A task manager that allows the user to create, delete, edit, and filter tasks. The user can mark them as complete and filter to see only complete or only pending tasks.
 Installation Guide:
 Usage Instructions:
