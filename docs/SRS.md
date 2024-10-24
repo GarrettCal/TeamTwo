@@ -73,48 +73,48 @@ This Task manager will require notifications for the user on when tasks are due,
 
 This section explains the key features of the Task Manager app, focusing on simple descriptions and functional requirements.
 
-** 4.1 Task Creation and Management**
+**4.1 Task Creation and Management**
 
-#### 4.1.1 Description and Priority
+Description and Priority
 Users can create, edit, delete, and manage tasks with priorities and deadlines.
-- **Priority**: High
+*Priority*: High
 
-#### 4.1.2 Functional Requirements
+Functional Requirements
 - Users can add tasks with a title, description, due date, and priority.
 - Tasks must have a valid title (not empty).
 - Tasks should display in a list sorted by due date or priority.
 - Users can edit or delete tasks, with confirmation before deletion.
 - Notifications should be sent for upcoming or overdue tasks.
 
-** 4.2 Task Status Tracking**
+**4.2 Task Status Tracking**
 
-#### 4.2.1 Description and Priority
+Description and Priority
 Users can track task progress by marking them as "To Do," "In Progress," or "Completed."
-- **Priority**: High
+*Priority*: High
 
-#### 4.2.2 Functional Requirements
+Functional Requirements
 - Users can update the status of tasks.
 - Tasks should move to the appropriate section based on status (e.g., "Completed" section).
 - Users can revert a "Completed" task back to "In Progress."
 
-** 4.3 Task Sorting and Filtering**
+**4.3 Task Sorting and Filtering**
 
-#### 4.3.1 Description and Priority
+Description and Priority
 Users can sort and filter tasks by priority, due date, or other criteria.
-- **Priority**: Medium
+*Priority*: Medium
 
-#### 4.3.2 Functional Requirements
+Functional Requirements
 - Users can sort tasks by due date or priority.
 - Filters should show tasks based on criteria like status or deadline.
 - The app saves user preferences for sorting/filtering.
 
 **4.4 Notifications and Reminders**
 
-#### 4.4.1 Description and Priority
+Description and Priority
 Users receive reminders for tasks that are due soon or overdue.
-- **Priority**: Medium
+- *Priority*: Medium
 
-#### 4.4.2 Functional Requirements
+Functional Requirements
 - Notifications are sent 24 hours before a task is due.
 - Overdue tasks are highlighted, and users are reminded.
 
