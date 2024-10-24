@@ -5,3 +5,7 @@ Meeting 2 10/22/2024 - Sprint 1.2
 Decided who will do use cases and who will do SRS document.
 Meeting 3 10/22/2024 - Sprint 2
 Assigned diagrams to each team member, reviewed which each diagram is. Discussed what will come after diagrams are complete (deciding design patterns).
+Meeting 4 10/24/24
+finished diagrams wrote main.py
+Meeting 5 10/24/24
+created taskmanager class task class and fixed issues in main.py assigned tasks to anyone
