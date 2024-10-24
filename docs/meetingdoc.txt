@@ -4,4 +4,4 @@ and report manager.
 Meeting 2 10/22/2024 - Sprint 1.2
 Decided who will do use cases and who will do SRS document.
 Meeting 3 10/22/2024 - Sprint 2
-Assigned diagrams to each team member, reviewed which each diagram is. Discussed what will come after diagrams aree complete (deciding design patterns).
+Assigned diagrams to each team member, reviewed which each diagram is. Discussed what will come after diagrams are complete (deciding design patterns).
