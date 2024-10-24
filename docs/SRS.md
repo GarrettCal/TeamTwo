@@ -2,7 +2,7 @@
 ## Introduction
 **1.1 Purpose**
 
-TaskMangerApp Version 0.1.1. It will allow a user to create, edit, delete, mark completed and filter diffferent tasks
+TaskMangerApp Version 0.3.1. It will allow a user to create, edit, delete, mark completed and filter diffferent tasks
 
 
 **1.2 Document Conventions**
