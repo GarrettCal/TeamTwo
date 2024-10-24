@@ -3,15 +3,13 @@ from task import Task
 class TaskManager:
     def __init__(self):
         self.tasks = []
-        self.count = 0
     
-    def add_task(self, task):
-        self.tasks.append(Task(task, self.count))
-        self.count += 1
+    def add_task(self, task, description, due_date):
+        self.tasks.append(Task(task, description, due_date))
 
     def remove_task(self, task):
         for t in self.tasks:
-            if t.task == task:
+            if t.id == task:
                 self.tasks.remove(t)
                 break
 
