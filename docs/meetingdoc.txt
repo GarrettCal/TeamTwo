@@ -9,3 +9,5 @@ Meeting 4 10/24/24
 finished diagrams wrote main.py
 Meeting 5 10/24/24
 created taskmanager class task class and fixed issues in main.py assigned tasks to anyone
+Meeting 6 10/29/2024
+Discussed what we got done last sprint, what we were working on last class, and assigned work for this sprint.
