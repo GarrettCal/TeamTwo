@@ -5,7 +5,7 @@ def main():
     task_manager = TaskManager()
     print("Welcome to the task management system")
     while True:
-        print("Please choose an option: 1. Add Task 2. Remove Task 3. View Tasks 4. Edit Task 5. Mark As Completed 6. Exit")
+        print("Please choose an option: 1. Add Task 2. Remove Task 3. View Tasks 4. Edit Task 5. Mark As Completed 6. Filter 7. Quit")
         choice = input()
         
         if choice == '1':
@@ -25,9 +25,12 @@ def main():
             new_due_date = input("Enter a new due date: ")
             task_manager.edit_task(task, new_name, new_description, new_due_date)
         elif choice == '5':
-            task = input("Enter completeed task name: ")
+            task = input("Enter completed task name: ")
             task_manager.mark_complete(task)
         elif choice == '6':
+            status = input("Status to filter by (Pending or Completed): ")
+            task_manager.filter(status)
+        elif choice == '7':
             exit()
         else:
             print("Invalid choice, please try again.")

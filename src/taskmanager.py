@@ -18,15 +18,12 @@ class TaskManager:
             print(task)
 
     def filter(self, task_status):
-        for t in self.tasks:
-            if t.status == task_status:
-                print(t)
-
-    def find_task(self, task_id):
-        for t in self.tasks:
-            if t.id == task_id:
-                return t
-        return None
+        filtered_array = []
+        for i in range(len(self.tasks)):
+            if self.tasks[i].status == task_status:
+                filtered_array.append(self.tasks[i])
+        for i in range(len(filtered_array)):
+            print(filtered_array[i])
     
     def edit_task(self, task, new_name, new_description, new_due_date):
         for i in range(len(self.tasks)):
