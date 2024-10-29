@@ -1,8 +1,19 @@
 # TeamTwo v0.3.1
-Project Overview: A task manager that allows the user to create, delete, edit, and filter tasks. The user can mark them as complete and filter to see only complete or only pending tasks.
-Installation Guide:
-Usage Instructions:
-1. Run program in command line
-2. Follow on screen instructions to add, delete, filter, edit tasks, or exit.
-   
+
+## Project Overview
+This program is a task manager application that allows users to create, delete, edit, and filter tasks. Users can easily mark tasks as complete and filter to view only completed or pending tasks.
+
+## Features
+- Create tasks with titles, descriptions, and due dates.
+- Delete tasks from the task list.
+- Edit existing tasks to update their details.
+- Filter tasks by status (complete or pending).
+- Mark tasks as complete.
+
+## Installation Guide
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/GarrettCal/TeamTwo.git
+
+
 Kanban: https://github.com/users/calebclayson/projects/2/views/1
