@@ -48,8 +48,6 @@ N/A. Simple application.
 **2.6 User Documentation:**
 Simple tutorial in the CLI.
 
-**2.7 Assumptions and Dependencies:**
-N/A
 
 ## External Interface Requirements
 **3.1 User Interfaces**
@@ -133,15 +131,3 @@ This app needs to be adaptable to different types of tasks, easily maintainable,
 
 **5.5 Business Rules**
 This product should be usable and functional to any person in any role.
-
-## Other Requirements
-Define any other requirements not covered elsewhere in the SRS. This might include database requirements, internationalization requirements, legal requirements, reuse objectives for the project, and so on. Add any new sections that are pertinent to the project.
-
-Appendix A: Glossary
-Define all the terms necessary to properly interpret the SRS, including acronyms and abbreviations. You may wish to build a separate glossary that spans multiple projects or the entire organization, and just include terms specific to a single project in each SRS.
-
-Appendix B: Analysis Models
-Optionally, include any pertinent analysis models, such as data flow diagrams, class diagrams, state-transition diagrams, or entity-relationship diagrams.
-
-Appendix C: To Be Determined List
-Collect a numbered list of the TBD (to be determined) references that remain in the SRS so they can be tracked to closure.
