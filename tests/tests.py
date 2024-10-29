@@ -1,6 +1,6 @@
 """this will be a test file"""
-from src.task import Task
-from src.taskmanager import TaskManager
+from ..src.task import Task
+from ..src.taskmanager import TaskManager
 
 task_manager = TaskManager()
 
