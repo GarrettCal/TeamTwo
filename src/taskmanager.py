@@ -14,8 +14,12 @@ class TaskManager:
                 break
 
     def view_tasks(self):
+        i = 1
         for task in self.tasks:
+            print(f"Task {i}:")
             print(task)
+            print("")
+            i += 1
 
     def filter(self, task_status):
         filtered_array = []
