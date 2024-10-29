@@ -1,6 +1,8 @@
 """this will be a test file"""
-from ..src.task import Task
-from ..src.taskmanager import TaskManager
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../src")))
+from taskmanager import TaskManager
 
 task_manager = TaskManager()
 
