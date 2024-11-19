@@ -1,40 +1,34 @@
-"""this will be a test file"""
+"""Test file for TaskManager functionality"""
 import sys
 import os
+import pytest
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "../src")))
 from taskmanager import TaskManager
 
-task_manager = TaskManager()
+@pytest.fixture
+def task_manager():
+    """Fixture to create a fresh TaskManager instance for each test"""
+    return TaskManager()
 
-#adding task test 1
-task_manager.add_task("Task 1", "This is task 1", "Tomorrow")
-if len(task_manager.tasks) == 1:
-  print("Add task 1 Passed")
-else:
-  print("Add task 1 Failed")
-task_manager.remove_task("Task 1")
+def test_add_task(task_manager):
+    """Test adding a task"""
+    task_manager.add_task("Task 1", "This is task 1", "Tomorrow")
+    assert len(task_manager.tasks) == 1
 
-#removing task test 1
-task_manager.add_task("Remove Task", "This is Remove Task", "Tomorrow")
-task_manager.remove_task("Remove Task")
-if len(task_manager.tasks) == 0:
-  print("Remove test 1 passed")
-else:
-  print("Remove test 1 failed")
+def test_remove_task(task_manager):
+    """Test removing a task"""
+    task_manager.add_task("Remove Task", "This is Remove Task", "Tomorrow")
+    task_manager.remove_task("Remove Task")
+    assert len(task_manager.tasks) == 0
 
-#editting task test 1
-task_manager.add_task("Edit task", "This is Edit Task", "Tomorrow")
-task_manager.edit_task("Edit task", "New Edit Task", "This is the new edit task", "Never")
-if any(task.title == "New Edit Task" for task in task_manager.tasks):
-    print("Edit task test 1 passed")
-else:
-    print("Edit task test 1 failed")
-task_manager.remove_task("New Edit Task")
+def test_edit_task(task_manager):
+    """Test editing a task"""
+    task_manager.add_task("Edit task", "This is Edit Task", "Tomorrow")
+    task_manager.edit_task("Edit task", "New Edit Task", "This is the new edit task", "Never")
+    assert any(task.title == "New Edit Task" for task in task_manager.tasks)
 
-#mark complete test 1
-task_manager.add_task("Edit task", "This is Edit Task", "Tomorrow")
-task_manager.mark_complete("Edit task")
-if task_manager.tasks[0].status == "Completed":
-  print("Mark complete test 1 passed")
-else:
-  print("Mark complete test 1 failed")
+def test_mark_complete(task_manager):
+    """Test marking a task as complete"""
+    task_manager.add_task("Edit task", "This is Edit Task", "Tomorrow")
+    task_manager.mark_complete("Edit task")
+    assert task_manager.tasks[0].status == "Completed"
