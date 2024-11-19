@@ -32,3 +32,17 @@ def test_mark_complete(task_manager):
     task_manager.add_task("Edit task", "This is Edit Task", "Tomorrow")
     task_manager.mark_complete("Edit task")
     assert task_manager.tasks[0].status == "Completed"
+
+def test_task_lifecycle(task_manager):
+    """Test the complete lifecycle of a task: add, edit, and remove"""
+    task_manager.add_task("Task 1", "Initial description", "Tomorrow")
+    assert len(task_manager.tasks) == 1
+    assert task_manager.tasks[0].title == "Task 1"
+    
+    task_manager.edit_task("Task 1", "Updated Task", "New description", "Next week")
+    assert any(task.title == "Updated Task" for task in task_manager.tasks)
+    assert task_manager.tasks[0].description == "New description"
+    assert task_manager.tasks[0].due_date == "Next week"
+    
+    task_manager.remove_task("Updated Task")
+    assert len(task_manager.tasks) == 0
