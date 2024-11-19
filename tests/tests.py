@@ -25,7 +25,7 @@ else:
 #editting task test 1
 task_manager.add_task("Edit task", "This is Edit Task", "Tomorrow")
 task_manager.edit_task("Edit task", "New Edit Task", "This is the new edit task", "Never")
-if task_manager.find_task("New Edit Task"):
+if task_manager.filter("New Edit Task"):
   print("Edit task test 1 passed")
 else:
   print("Edit task test 1 failed")
